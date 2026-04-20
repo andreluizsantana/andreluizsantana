@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://andreluizsantana.vercel.app" target="_blank">Portfólio</a> •
-  <a href="https://linkedin.com/in/andreluizsantana" target="_blank">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/andrelssr/" target="_blank">LinkedIn</a>
 </p>
 
 ---
