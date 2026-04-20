@@ -1,16 +1,29 @@
-## Hi there 👋
+<h1 align="center">André Luiz</h1>
 
-<!--
-**andreluizsantana/andreluizsantana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Backend Developer · Java & Spring Boot · João Pessoa, PB
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://andreluizsantana.vercel.app" target="_blank">Portfólio</a> •
+  <a href="https://linkedin.com/in/andreluizsantana" target="_blank">LinkedIn</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA_Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+### 📌 Sobre
+
+Desenvolvedor backend, construindo bases sólidas com Java e Spring Boot.
+Atualmente trabalhando com BIRT/Jasper Reports e SQL no dia a dia,
+e desenvolvendo APIs REST com foco em boas práticas, JPA e PostgreSQL.
