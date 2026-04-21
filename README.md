@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://andreluizsantana.vercel.app" target="_blank">Portfólio</a> •
+  <a href="https://andreluiz-dev.vercel.app" target="_blank">Portfólio</a> •
   <a href="https://www.linkedin.com/in/andrelssr/" target="_blank">LinkedIn</a>
 </p>
 
