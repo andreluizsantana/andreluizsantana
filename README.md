@@ -4,19 +4,6 @@
  Backend Java Developer | Spring Boot | PostgreSQL · João Pessoa, PB
 </p>
 
-[![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=blue)](https://github.com/andreluizsantana)
-
-## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andreluizsantana&theme=dark&show_icons=true)
-
-## Most Used Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andreluizsantana&theme=dark&layout=compact)
-
-<p align="center">
-  <a href="https://andreluiz-dev.vercel.app" target="_blank">Portfólio</a> •
-  <a href="https://www.linkedin.com/in/andrelssr/" target="_blank">LinkedIn</a>
-</p>
-
 ---
 
 ### 🛠️ Stack
@@ -35,3 +22,17 @@
 Desenvolvedor backend, construindo bases sólidas com Java e Spring Boot.
 Atualmente trabalhando com BIRT/Jasper Reports e SQL no dia a dia,
 e desenvolvendo APIs REST com foco em boas práticas, JPA e PostgreSQL.
+
+
+[![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=blue)](https://github.com/andreluizsantana)
+
+## GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andreluizsantana&theme=dark&show_icons=true)
+
+## Most Used Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andreluizsantana&theme=dark&layout=compact)
+
+<p align="center">
+  <a href="https://andreluiz-dev.vercel.app" target="_blank">Portfólio</a> •
+  <a href="https://www.linkedin.com/in/andrelssr/" target="_blank">LinkedIn</a>
+</p>
