@@ -4,20 +4,7 @@
  Backend Java Developer | Spring Boot | PostgreSQL · João Pessoa, PB
 </p>
 
-# Hi there 👋
 [![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=blue)](https://github.com/andreluizsantana)
-
-## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andreluizsantana&theme=dark&show_icons=true)
-
-## Most Used Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andreluizsantana&theme=dark&layout=compact)
-
-# Hi there 👋
-[![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=blue)](https://github.com/andreluizsantana)
-
-## About Me
-Backend Java Developer | Spring Boot | PostgreSQL
 
 ## GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andreluizsantana&theme=dark&show_icons=true)
