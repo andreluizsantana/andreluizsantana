@@ -30,6 +30,18 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 
 ---
 
+## 📈 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andreluizsantana&theme=dark&show_icons=true&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andreluizsantana&theme=dark&layout=compact&hide_border=true)
+
+</div>
+
+---
+
 ## 📊 Estatísticas
 
 [![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
@@ -134,18 +146,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 - ✅ PostgreSQL
 - ✅ SQL (queries, indexes, relationships)
 - ✅ Database design
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andreluizsantana&theme=dark&show_icons=true&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andreluizsantana&theme=dark&layout=compact&hide_border=true)
-
-</div>
 
 ---
 
