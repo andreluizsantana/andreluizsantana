@@ -113,7 +113,7 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ✅ GitHub integration
 ```
 
-👉 [Acessar portfólio](https://andre-dev-portfolio.vercel.app)
+👉 [Acessar portfólio](https://andreluiz.vercel.app)
 
 ---
 
@@ -181,11 +181,11 @@ Microservices Architecture
 - 📚 Estudando **design patterns** em Java
 - 🔄 Refresh tokens & **token rotation**
 
-## 💬 Conecte-se Comigo
+## 💬 Fale Comigo
 
 <div align="center">
 
-[🌐 **Portfólio**](https://andre-dev-portfolio.vercel.app) • 
+[🌐 **Portfólio**](https://andreluiz.vercel.app) • 
 [💼 **LinkedIn**](https://www.linkedin.com/in/andrelssr/) • 
 [🐙 **GitHub**](https://github.com/andreluizsantana) • 
 
