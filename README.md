@@ -34,7 +34,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 
 [![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
 ![Commits](https://img.shields.io/badge/Commits%202024-43-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Buscando%20CLT-brightgreen?style=flat-square)
 
 ---
 
