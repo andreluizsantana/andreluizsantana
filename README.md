@@ -188,7 +188,6 @@ Microservices Architecture
 [🌐 **Portfólio**](https://andre-dev-portfolio.vercel.app) • 
 [💼 **LinkedIn**](https://www.linkedin.com/in/andrelssr/) • 
 [🐙 **GitHub**](https://github.com/andreluizsantana) • 
-[📧 **Email**](mailto:seu-email@example.com)
 
 </div>
 
