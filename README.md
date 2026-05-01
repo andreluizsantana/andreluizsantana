@@ -30,6 +30,14 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 
 ---
 
+## 📊 Estatísticas
+
+[![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
+![Commits](https://img.shields.io/badge/Commits%202024-43-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Buscando%20CLT-brightgreen?style=flat-square)
+
+---
+
 ## 🚀 Principais Tecnologias
 
 ### Backend
@@ -67,7 +75,7 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 - `POST /api/auth/register` - Registro de usuários
 - `GET/POST/PUT/DELETE /api/tasks` - CRUD de tarefas (autenticado)
 
-👉 [Ver projeto completo](https://github.com/andreluizsantana/TaskHub)
+👉 [Ver projeto completo](https://github.com/andreluizsantana/task-manager-api)
 
 ---
 
@@ -82,12 +90,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ✅ Spring Data method naming conventions
 ✅ Endpoints RESTful bem estruturados
 ```
-
-📌 **Aprendizados**: Camada de service, exception handling centralizado, validações
-
-👉 [Ver projeto](https://github.com/andreluizsantana/Agenda)
-
----
 
 ### 🌐 **andre-dev-portfolio** - Portfólio Pessoal
 **Next.js + TypeScript + Tailwind CSS (Dark Terminal Aesthetic)**
@@ -179,16 +181,6 @@ Microservices Architecture
 - 🐳 Explorando **Docker** & **docker-compose**
 - 📚 Estudando **design patterns** em Java
 - 🔄 Refresh tokens & **token rotation**
-
----
-
-## 📊 Estatísticas
-
-[![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
-![Commits](https://img.shields.io/badge/Commits%202024-43-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Buscando%20CLT-brightgreen?style=flat-square)
-
----
 
 ## 💬 Conecte-se Comigo
 
