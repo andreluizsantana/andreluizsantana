@@ -16,6 +16,8 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ---
 
@@ -26,7 +28,7 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 **Spring Security**, **autenticação JWT**, **JPA/Hibernate** e **PostgreSQL**.
 
 ### 🎯 Objetivo
-**Backend Developer**
+**Backend Developer Pleno** | Meta: Outubro 2026
 
 ---
 
@@ -45,7 +47,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ## 📊 Estatísticas
 
 [![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
-![Commits](https://img.shields.io/badge/Commits%202024-43-brightgreen?style=flat-square)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=andreluizsantana)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -57,10 +58,15 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 - **Java 17+** | **Spring Boot 3.x** | **Spring Security 6.x**
 - **Spring Data JPA** | **Hibernate** | **Lombok**
 - **JWT Authentication** | **BCrypt Password Encoding**
+- **Apache POI** (importação Excel)
+- **MapStruct** (DTO mapping)
 
 ### Database & Tools
 - **PostgreSQL** | **SQL** | **Maven** | **Git**
 - **Eclipse IDE** | **Docker** 
+
+### Frontend
+- **Next.js 15** | **TypeScript** | **Tailwind CSS**
 
 ### Relatórios & Legacy
 - **BIRT** | **Jasper Reports**
@@ -69,53 +75,79 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 
 ## 📊 Projetos Principais
 
-### 🔐 **TaskHub** - REST API com Autenticação JWT
-**Spring Boot + Spring Security + PostgreSQL + JPA/Hibernate**
+### 🔐 **TaskHub API** - REST API com Autenticação JWT
+**Spring Boot 3.4.4 + Spring Security + PostgreSQL + JPA/Hibernate + MapStruct**
 
 ```
 ✅ Autenticação com JWT (24h tokens)
 ✅ UserDetailsService customizado
 ✅ Custom SecurityFilter (OncePerRequestFilter)
 ✅ BCryptPasswordEncoder
-✅ DTOs com Java Records
-✅ GlobalExceptionHandler
+✅ DTOs com Java Records + MapStruct
+✅ GlobalExceptionHandler robusto
 ✅ JPA com @MappedSuperclass e auditing
-✅ Bean Validation
+✅ Bean Validation (@Valid)
+✅ Tarefas simples (UNICA) e recorrentes (MENSAL)
+✅ Job agendado (@Scheduled) - atualiza tarefas vencidas
+✅ Paginação configurável
+✅ Otimizações de batch insert (10x mais rápido)
 ```
 
-📌 **Features**:
+📌 **Features principais**:
 - `POST /api/auth/login` - Autenticação JWT
 - `POST /api/auth/register` - Registro de usuários
 - `GET/POST/PUT/DELETE /api/tasks` - CRUD de tarefas (autenticado)
+- `POST /api/tasks/recurrent` - Criar tarefas recorrentes
+- `GET /api/tasks/test-scheduled` - Testar job agendado
 
 👉 [Ver projeto completo](https://github.com/andreluizsantana/task-manager-api)
 
 ---
 
-### 📋 **Agenda** - CRUD REST API
-**Spring Boot + JPA + PostgreSQL + Bean Validation**
+### 📥 **Excel Employee Importer** - API de Importação em Lote
+**Spring Boot + Apache POI + PostgreSQL + JPA/Hibernate**
 
 ```
-✅ CRUD completo (GET, POST, PUT, DELETE)
-✅ DTOs como Java Records (AgendaRequestDTO/ResponseDTO)
-✅ GlobalExceptionHandler com @RestControllerAdvice
-✅ Bean Validation (@NotBlank, @Size)
-✅ Spring Data method naming conventions
-✅ Endpoints RESTful bem estruturados
+✅ Importação de arquivos Excel (XLSX/XLS)
+✅ Validação de dados e conversão de tipos
+✅ BigDecimal para tratamento de valores monetários
+✅ GlobalExceptionHandler robusto
+✅ Transações atômicas com @Transactional
+✅ DataFormatter para leitura segura de células
+✅ Suporte a múltiplas abas (sheets)
+✅ Tratamento de erros por linha com mensagens claras
 ```
+
+📌 **Features**:
+- `POST /api/importar/arquivoexcel` - Importar funcionários em lote
+- Conversão automática de tipos (CPF, nome, telefone, salário)
+- Tratamento de erros com mensagens específicas por linha
+- Persistência em PostgreSQL via JPA
+
+👉 [Ver projeto completo](https://github.com/andreluizsantana/excel-employee-importer)
+
+---
 
 ### 🌐 **andre-dev-portfolio** - Portfólio Pessoal
-**Next.js + TypeScript + Tailwind CSS (Dark Terminal Aesthetic)**
+**Next.js 15 + TypeScript + Tailwind CSS (Dark Terminal Aesthetic)**
 
 ```
 ✅ Design moderno e responsivo
 ✅ TypeScript para type safety
-✅ Tailwind CSS para styling
-✅ Deployed na Vercel
+✅ Tailwind CSS para styling robusto
+✅ Deployed na Vercel (CI/CD automático)
 ✅ GitHub integration
+✅ Dark mode terminal aesthetic
 ```
 
-👉 [Acessar portfólio](https://andreluiz.vercel.app)
+📌 **Features**:
+- Landing page profissional
+- Showcase de projetos
+- GitHub integration
+- Responsivo para mobile/tablet
+
+👉 [Acessar portfólio](https://andreluizsantana.vercel.app)  
+👉 [Ver código](https://github.com/andreluizsantana/andre-dev-portfolio)
 
 ---
 
@@ -133,21 +165,39 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ### Spring Boot & JPA
 - ✅ Spring Data JPA repositories
 - ✅ @MappedSuperclass para herança
-- ✅ DTOs com Java Records
+- ✅ DTOs com Java Records + MapStruct
 - ✅ Lazy loading & relationships
 - ✅ JPQL & native queries
+- ✅ Transações com @Transactional
+- ✅ Job scheduling (@Scheduled)
+- ✅ Otimizações de batch insert
 
 ### REST APIs
 - ✅ Endpoints RESTful
-- ✅ GlobalExceptionHandler
+- ✅ GlobalExceptionHandler (@RestControllerAdvice)
 - ✅ Bean Validation
 - ✅ HTTP status codes
 - ✅ DTOs para request/response
+- ✅ Importação de arquivos (multipart/form-data)
+- ✅ Paginação e filtros
 
 ### Database
 - ✅ PostgreSQL
 - ✅ SQL (queries, indexes, relationships)
 - ✅ Database design
+- ✅ JPA Sequences & Generators
+
+### Processamento de Arquivos
+- ✅ Apache POI (Excel XLSX/XLS)
+- ✅ DataFormatter para leitura segura
+- ✅ MultipartFile handling
+- ✅ Validação de entrada
+
+### Frontend
+- ✅ Next.js e React
+- ✅ TypeScript
+- ✅ Tailwind CSS
+- ✅ Responsividade
 
 ---
 
@@ -164,7 +214,9 @@ Spring Boot Basics
     ↓
 REST APIs & DTOs
     ↓
-Spring Security & JWT  ← Você está aqui
+Spring Security & JWT
+    ↓
+Processamento de Arquivos ← Você está aqui
     ↓
 Testes (Unit & Integration)
     ↓
@@ -178,16 +230,18 @@ Microservices Architecture
 ## 🎓 Desenvolvendo Atualmente
 
 - 📖 Aprofundando **Spring Security** (Roles, Authorities, OAuth2)
+- 📥 Explorando **processamento de arquivos** (Excel, CSV)
 - 🧪 Implementando **testes unitários** (Mockito, JUnit 5)
 - 🐳 Explorando **Docker** & **docker-compose**
 - 📚 Estudando **design patterns** em Java
-- 🔄 Refresh tokens & **token rotation**
+- 🔄 Implementando **refresh tokens** & **token rotation**
+- 📊 Construindo **Event Manager API** (multi-entity relationships)
 
 ## 💬 Fale Comigo
 
 <div align="center">
 
-[🌐 **Portfólio**](https://andreluiz.vercel.app) • 
+[🌐 **Portfólio**](https://andreluizsantana.vercel.app) • 
 [💼 **LinkedIn**](https://www.linkedin.com/in/andrelssr/) • 
 [🐙 **GitHub**](https://github.com/andreluizsantana) • 
 
