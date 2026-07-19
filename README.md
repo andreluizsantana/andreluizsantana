@@ -28,7 +28,7 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 **Spring Security**, **autenticação JWT**, **JPA/Hibernate** e **PostgreSQL**.
 
 ### 🎯 Objetivo
-**Backend Developer Pleno** | Meta: Outubro 2026
+**Backend Developer Pleno**
 
 ---
 ## 📊 Estatísticas
