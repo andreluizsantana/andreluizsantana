@@ -80,13 +80,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ✅ Otimizações de batch insert (10x mais rápido)
 ```
 
-📌 **Features principais**:
-- `POST /api/auth/login` - Autenticação JWT
-- `POST /api/auth/register` - Registro de usuários
-- `GET/POST/PUT/DELETE /api/tasks` - CRUD de tarefas (autenticado)
-- `POST /api/tasks/recurrent` - Criar tarefas recorrentes
-- `GET /api/tasks/test-scheduled` - Testar job agendado
-
 👉 [Ver projeto completo](https://github.com/andreluizsantana/task-manager-api)
 
 ---
@@ -104,12 +97,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ✅ Suporte a múltiplas abas (sheets)
 ✅ Tratamento de erros por linha com mensagens claras
 ```
-
-📌 **Features**:
-- `POST /api/importar/arquivoexcel` - Importar funcionários em lote
-- Conversão automática de tipos (CPF, nome, telefone, salário)
-- Tratamento de erros com mensagens específicas por linha
-- Persistência em PostgreSQL via JPA
 
 👉 [Ver projeto completo](https://github.com/andreluizsantana/excel-employee-importer)
 
@@ -188,32 +175,6 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 
 ---
 
-## 🔄 Fluxo de Aprendizado
-
-```
-Fundamentos Java
-    ↓
-OOP, Collections, Streams
-    ↓
-JPA & Hibernate
-    ↓
-Spring Boot Basics
-    ↓
-REST APIs & DTOs
-    ↓
-Spring Security & JWT
-    ↓
-Processamento de Arquivos ← Você está aqui
-    ↓
-Testes (Unit & Integration)
-    ↓
-Docker & CI/CD
-    ↓
-Microservices Architecture
-```
-
----
-
 ## 🎓 Desenvolvendo Atualmente
 
 - 📖 Aprofundando **Spring Security** (Roles, Authorities, OAuth2)
@@ -239,7 +200,6 @@ Microservices Architecture
 <div align="center">
 
 **"Escrevendo código limpo, aprendendo todos os dias."**
-
 *Made with ❤️ in João Pessoa, PB*
 
 </div>
