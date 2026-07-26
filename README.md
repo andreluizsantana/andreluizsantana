@@ -45,8 +45,6 @@ Ambiente de desenvolvimento: **IntelliJ IDEA** rodando em **Ubuntu Linux**.
 
 [![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=andreluizsantana)](https://github.com/ryo-ma/github-profile-trophy)
-
 ---
 
 ## 🚀 Principais Tecnologias
@@ -143,7 +141,7 @@ Ambiente de desenvolvimento: **IntelliJ IDEA** rodando em **Ubuntu Linux**.
 ✅ Dark mode terminal aesthetic
 ```
 
-👉 [Acessar portfólio](https://andreluiz-dev.vercel.app)
+👉 [Acessar portfólio](https://andreluiz.vercel.app)
 
 ---
 
@@ -204,7 +202,7 @@ Ambiente de desenvolvimento: **IntelliJ IDEA** rodando em **Ubuntu Linux**.
 
 <div align="center">
 
-[🌐 **Portfólio**](https://andreluiz-dev.vercel.app) •
+[🌐 **Portfólio**](https://andreluiz.vercel.app) •
 [💼 **LinkedIn**](https://www.linkedin.com/in/andrelssr/) •
 [🐙 **GitHub**](https://github.com/andreluizsantana)
 
