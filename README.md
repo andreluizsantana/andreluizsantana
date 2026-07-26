@@ -4,6 +4,11 @@
  🚀 Backend Java Developer | Spring Boot | Spring Security | PostgreSQL · João Pessoa, PB
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/andrelssr/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://andreluiz-dev.vercel.app"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+</p>
+
 ---
 
 ### 🛠️ Stack
@@ -16,6 +21,7 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Linux](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -24,13 +30,17 @@
 ### 📌 Sobre
 
 Desenvolvedor backend com foco em **Java e Spring Boot**, construindo APIs REST robustas e escaláveis.
-Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e desenvolvendo projetos com
-**Spring Security**, **autenticação JWT**, **JPA/Hibernate** e **PostgreSQL**.
+Atualmente trabalho com **BIRT/Jasper Reports** e **SQL** no dia a dia, e desenvolvo projetos pessoais
+aplicando **Spring Security**, **autenticação JWT**, **JPA/Hibernate** e **PostgreSQL** com foco em
+boas práticas de arquitetura (paginação, tratamento global de exceções, camadas DTO/Service bem definidas).
+
+Ambiente de desenvolvimento: **IntelliJ IDEA** rodando em **Ubuntu Linux**.
 
 ### 🎯 Objetivo
-**Backend Developer Pleno**
+**Backend Developer Júnior/Pleno**
 
 ---
+
 ## 📊 Estatísticas
 
 [![Profile views](https://komarev.com/ghpvc/?username=andreluizsantana&color=0071C5)](https://github.com/andreluizsantana)
@@ -49,8 +59,8 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 - **MapStruct** (DTO mapping)
 
 ### Database & Tools
-- **PostgreSQL** | **SQL** | **Maven** | **Git**
-- **Eclipse IDE** | **Docker** 
+- **PostgreSQL** | **SQL** | **Maven** | **Git** (SmartGit)
+- **IntelliJ IDEA** | **Ubuntu Linux** | **Docker**
 
 ### Frontend
 - **Next.js 15** | **TypeScript** | **Tailwind CSS**
@@ -61,6 +71,26 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 ---
 
 ## 📊 Projetos Principais
+
+### 📅 **EventAPI** - API de Gestão de Eventos (em desenvolvimento ativo)
+**Spring Boot 3.x + Spring Data JPA + PostgreSQL**
+
+```
+✅ Modelagem de domínio: 5 entidades (Evento, Convidado, Fornecedor,
+   ItemEvento, ListaConvidado) com relacionamentos 1:N mapeados
+✅ Camada DTO/Mapper (EventMapper)
+✅ EventService com exceções customizadas e @Transactional
+✅ EventController seguindo REST best practices (rotas no plural,
+   ServletUriComponentsBuilder, endpoint DELETE)
+✅ Tratamento global de exceções (EventNotFoundException,
+   ErrorResponse, DataIntegrityViolationException handler, SLF4J)
+✅ Paginação com Pageable, Page<T> e PageResponse customizado (record)
+🔄 Próxima fase: Repositories avançados (queries customizadas)
+```
+
+👉 [Ver projeto](https://github.com/andreluizsantana) *(link do repositório específico)*
+
+---
 
 ### 🔐 **TaskHub API** - REST API com Autenticação JWT
 **Spring Boot 3.4.4 + Spring Security + PostgreSQL + JPA/Hibernate + MapStruct**
@@ -102,26 +132,18 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 
 ---
 
-### 🌐 **andre-dev-portfolio** - Portfólio Pessoal
+### 🌐 **Portfólio Pessoal**
 **Next.js 15 + TypeScript + Tailwind CSS (Dark Terminal Aesthetic)**
 
 ```
 ✅ Design moderno e responsivo
 ✅ TypeScript para type safety
 ✅ Tailwind CSS para styling robusto
-✅ Deployed na Vercel (CI/CD automático)
-✅ GitHub integration
+✅ Deploy na Vercel (CI/CD automático)
 ✅ Dark mode terminal aesthetic
 ```
 
-📌 **Features**:
-- Landing page profissional
-- Showcase de projetos
-- GitHub integration
-- Responsivo para mobile/tablet
-
-👉 [Acessar portfólio](https://andreluiz.vercel.app)  
-👉 [Ver código](https://github.com/andreluizsantana/andre-dev-portfolio)
+👉 [Acessar portfólio](https://andreluiz-dev.vercel.app)
 
 ---
 
@@ -140,15 +162,15 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 - ✅ Spring Data JPA repositories
 - ✅ @MappedSuperclass para herança
 - ✅ DTOs com Java Records + MapStruct
-- ✅ Lazy loading & relationships
+- ✅ Relacionamentos 1:N, lazy loading
 - ✅ JPQL & native queries
 - ✅ Transações com @Transactional
 - ✅ Job scheduling (@Scheduled)
-- ✅ Otimizações de batch insert
+- ✅ Paginação (Pageable, Page<T>, DTOs de resposta customizados)
+- ✅ Tratamento global de exceções (@RestControllerAdvice)
 
 ### REST APIs
-- ✅ Endpoints RESTful
-- ✅ GlobalExceptionHandler (@RestControllerAdvice)
+- ✅ Endpoints RESTful (convenções de rota, verbos HTTP corretos)
 - ✅ Bean Validation
 - ✅ HTTP status codes
 - ✅ DTOs para request/response
@@ -161,37 +183,30 @@ Atualmente trabalhando com **BIRT/Jasper Reports** e **SQL** no dia a dia, e des
 - ✅ Database design
 - ✅ JPA Sequences & Generators
 
-### Processamento de Arquivos
-- ✅ Apache POI (Excel XLSX/XLS)
-- ✅ DataFormatter para leitura segura
-- ✅ MultipartFile handling
-- ✅ Validação de entrada
-
-### Frontend
-- ✅ Next.js e React
-- ✅ TypeScript
-- ✅ Tailwind CSS
-- ✅ Responsividade
+### Infra & Ambiente
+- ✅ Linux (Ubuntu) como ambiente principal de desenvolvimento
+- ✅ Git via GUI (SmartGit)
+- 🔄 Docker & docker-compose (em consolidação)
 
 ---
 
-## 🎓 Desenvolvendo Atualmente
+## 🎓 Em Preparação / Desenvolvendo Atualmente
 
-- 📖 Aprofundando **Spring Security** (Roles, Authorities, OAuth2)
-- 📥 Explorando **processamento de arquivos** (Excel, CSV)
-- 🧪 Implementando **testes unitários** (Mockito, JUnit 5)
-- 🐳 Explorando **Docker** & **docker-compose**
-- 📚 Estudando **design patterns** em Java
-- 🔄 Implementando **refresh tokens** & **token rotation**
-- 📊 Construindo **Event Manager API** (multi-entity relationships)
+- 🧪 Aprofundando **testes automatizados** (JUnit 5, TDD)
+- 🐳 Consolidando **Docker** & **docker-compose**
+- 📄 Estudando **Swagger/OpenAPI** para documentação de APIs
+- 📊 Evoluindo a **EventAPI** rumo a um padrão de código nível Pleno
+- 📚 Revisando **arquitetura de software** e **design patterns**
+
+---
 
 ## 💬 Fale Comigo
 
 <div align="center">
 
-[🌐 **Portfólio**](https://andreluiz.vercel.app) • 
-[💼 **LinkedIn**](https://www.linkedin.com/in/andrelssr/) • 
-[🐙 **GitHub**](https://github.com/andreluizsantana) • 
+[🌐 **Portfólio**](https://andreluiz-dev.vercel.app) •
+[💼 **LinkedIn**](https://www.linkedin.com/in/andrelssr/) •
+[🐙 **GitHub**](https://github.com/andreluizsantana)
 
 </div>
 
